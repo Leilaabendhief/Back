@@ -1,0 +1,14 @@
+2024-02-07T01:29:23.909+01:00  INFO 34756 --- [main] t.e.piDev.ForumManagementApplication     : Starting ForumManagementApplication using Java 17.0.8 with PID 34756 (C:\Users\bough\Desktop\PiDev-Back\target\classes started by bough in C:\Users\bough\Desktop\PiDev-Back)
+2024-02-07T01:29:23.915+01:00  INFO 34756 --- [main] t.e.piDev.ForumManagementApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-07T01:29:25.528+01:00  INFO 34756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-07T01:29:25.528+01:00  INFO 34756 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-02-07T01:29:25.617+01:00  INFO 34756 --- [main] o.a.c.c.C.[.[.[/ForumManagement]         : Initializing Spring embedded WebApplicationContext
+2024-02-07T01:29:25.823+01:00  INFO 34756 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-07T01:29:25.869+01:00  INFO 34756 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-07T01:29:25.871+01:00  INFO 34756 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-07T01:29:25.983+01:00  INFO 34756 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-07T01:29:26.274+01:00  WARN 34756 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-02-07T01:29:26.557+01:00  INFO 34756 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-07T01:29:27.294+01:00  INFO 34756 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-07T01:29:28.367+01:00  WARN 34756 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-07T01:29:29.585+01:00  INFO 34756 --- [main] t.e.piDev.ForumManagementApplication     : Started ForumManagementApplication in 6.174 seconds (process running for 6.923)
